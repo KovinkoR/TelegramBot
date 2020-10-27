@@ -1,0 +1,33 @@
+{
+  "name": "TelegramBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KovinkoR/TelegramBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KovinkoR/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/KovinkoR/TelegramBot#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "covid19-api": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.10.3",
+    "request": "^2.88.2",
+    "telegraf": "^3.38.0"
+  }
+}
